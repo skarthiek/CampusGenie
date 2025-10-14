@@ -5,7 +5,7 @@ from langchain.docstore.document import Document
 import numpy as np
 
 
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=AIzaSyAv8ikY7dkYT7fFtNAWbtjQWphlRQYNrfw)
 
 def get_gemini_embedding(text):
     response = genai.embed_content(
